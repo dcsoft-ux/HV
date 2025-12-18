@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Experience from './components/Experience/Experience';
 import Education from './components/Education/Education';
 import Resumen from './components/Resumen/Resumen';
+import Competencias_Tecnicas from './components/Competencias_Tecnicas/Competencias_Tecnicas';
 
 const App = () => {
   const [resumeData, setResumeData] = useState(null);
@@ -21,6 +22,7 @@ const App = () => {
       <Resumen resumen={resumeData.contact}/>
       <Education education={resumeData.education} />
       <Experience experience={resumeData.experience} />
+      <Competencias_Tecnicas Competencias_Tecnicas={resumeData.Competencias_Tecnicas}/>
     </div>
   );
 }

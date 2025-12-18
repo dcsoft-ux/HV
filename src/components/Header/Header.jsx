@@ -23,9 +23,9 @@ const Header = ({ name, title, contact }) => (
       </div>
     </div>
     <div className='networking'>
-      <a className='networking-link' href="https://www.linkedin.com/in/dcsoft/"><b>LinkedIn</b></a>
-      <a className='networking-link' href="https://github.com/cdazaparra"><b>GitHub</b></a> 
-      <a className='networking-link' href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001614128"><b>CvLac</b></a></div>
+      <a className='networking-link' href="https://www.linkedin.com/in/dcsoft/" target="_blank"><b>LinkedIn</b></a>
+      <a className='networking-link' href="https:/github.com/dcsoft-ux" target="_blank"><b>GitHub</b></a> 
+      <a className='networking-link' href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001614128" target="_blank"><b>CvLac</b></a></div>
     <hr className='line' />
   </div>
 );

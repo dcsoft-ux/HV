@@ -5,9 +5,7 @@
     "email": "cdazaparra@gmail.com",
     "phone": "+57 302 612 62 62",
     "location": "Chiquinquirá, Colombia",
-    "summary1":"Soy Ingeniero de Sistemas con una Maestría en Sistemas Integrados de Gestión y Especialización en Docencia y Pedagogía, con más de 10 años de experiencia en la enseñanza y gestión de proyectos tecnológicos. Mi trayectoria abarca roles como docente universitario, director de proyectos y especialista en desarrollo de software, con un enfoque especial en Cloud Computing (AWS/Azure), algoritmos, desarrollo web, bases de datos y gestión de proyectos.",
-    "summary2":"He trabajado como docente en varias instituciones de renombre, como Jala University, Tecnalia Colombia y Universitaria de Colombia, en asignaturas clave de ingeniería de sistemas y desarrollo de software. Además, me he desempeñado como Director de Proyectos en International Data Information and Consulting SAS, liderando equipos multidisciplinarios y manejando proyectos de desarrollo frontend, diseño y administración de sistemas con metodologías ágiles como Scrum.",
-    "summary3":"Mi enfoque en la educación se complementa con una sólida formación en gestión de la calidad y ergonomía aplicada, que he implementado tanto en el ámbito académico como en la industria. Mi experiencia también incluye roles de gestión de bases de datos, auditoría de sistemas y análisis de datos en el sector de la salud."
+    "summary1":"Ingeniero de Sistemas con Maestría en Sistemas Integrados de Gestión y Especialización en Docencia y Pedagogía, con más de 10 años de experiencia como docente universitario, desarrollador y director de proyectos tecnológicos. Experto en Cloud Computing (AWS/Azure), desarrollo web y gestión de proyectos ágiles (Scrum), con trayectoria liderando equipos multidisciplinarios y formando profesionales en ingeniería de sistemas. Destaco por integrar la visión académica con la práctica empresarial, enfocándome en calidad, innovación y mejora continua."
   },
   "experience": [
     {
@@ -123,8 +121,34 @@
     {
       "institution": "Servicio Nacional de Aprendizaje (SENA)",
       "degree": "Tecnólogo en Desarrollo de Medios Gráficos Visuales",
-      "year": "En etapa productiva",
+      "year": "2025",
       "thesis": "Etapa productiva: Vinculación Laboral o contractual."
     }
+  ],
+  "Competencias_Tecnicas":[
+  {
+    "data": "Lenguajes : JavaScript, PHP, SQL, Python"
+  },
+{
+    "data": "Frontend: React, HTML5, CSS3"
+},
+{
+    "data": "Backend: Node.js, Python(Django)"
+},
+{
+  "data": "Cloud : AWS, Azure"
+},
+{
+  "data": "Bases de datos : SQL Server, MySQL"
+},
+{
+  "data": "Metodologías : Scrum"
+},
+{
+  "data": "Herramientas : Git, GitHub, Jira, Trello"
+},
+{
+  "data":  "Otros : Auditoría de sistemas, análisis de datos"
+}
   ]
 }
