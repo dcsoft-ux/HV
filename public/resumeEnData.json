@@ -1,0 +1,130 @@
+{
+  "name": "Carlos Andres Daza Parra",
+  "title": "Lecturer | Developer | Researcher",
+  "contact": {
+    "email": "cdazaparra@gmail.com",
+    "phone": "+57 302 612 62 62",
+    "location": "Chiquinquirá, Colombia",
+    "summary1": "I am a Systems Engineer with a Master's Degree in Integrated Management Systems and a Specialization in Teaching and Pedagogy, with over 10 years of experience in teaching and managing technology projects. My career spans roles such as university lecturer, project director, and software development specialist, with a strong focus on Cloud Computing (AWS/Azure), algorithms, web development, databases, and project management.",
+    "summary2": "I have worked as a lecturer at several prestigious institutions, including Jala University, Tecnalia Colombia, and Universitaria de Colombia, teaching key subjects in systems engineering and software development. Additionally, I served as Project Director at International Data Information and Consulting SAS, leading multidisciplinary teams and managing frontend development, design, and system administration projects using agile methodologies such as Scrum.",
+    "summary3": "My focus on education is complemented by a strong background in quality management and applied ergonomics, which I have implemented in both academic and industry settings. My experience also includes roles in database management, systems auditing, and data analysis in the healthcare sector."
+  },
+  "experience": [
+    {
+      "company": "Jala University",
+      "role": "Lecturer",
+      "duration": "July 2025 - August 2025",
+      "description": "Algorithms 1."
+    },
+    {
+      "company": "Tecnalia Colombia",
+      "role": "Lecturer",
+      "duration": "May 2025 - July 2025",
+      "description": "Cloud Computing Lecturer (AWS/Azure)."
+    },
+    {
+      "company": "Jala University",
+      "role": "Lecturer",
+      "duration": "February 2025 - March 2025",
+      "description": "Algorithms 1."
+    },
+    {
+      "company": "Tecnalia Colombia",
+      "role": "Lecturer",
+      "duration": "December 2024 - January 2025",
+      "description": "Cloud Computing Lecturer (AWS/Azure)."
+    },
+    {
+      "company": "Tecnalia Colombia",
+      "role": "Lecturer",
+      "duration": "August 2024 - September 2024",
+      "description": "Cloud Computing Lecturer (AWS/Azure)."
+    },
+    {
+      "company": "Tecnalia Colombia",
+      "role": "Lecturer",
+      "duration": "May 2024 - August 2024",
+      "description": "Cloud Computing Lecturer (AWS/Azure)."
+    },
+    {
+      "company": "Universitaria de Colombia",
+      "role": "Lecturer",
+      "duration": "September 2023 - May 2024",
+      "description": "Lecturer in video game development, databases, web design, among others."
+    },
+    {
+      "company": "International Data Information And Consulting SAS",
+      "role": "Project Director",
+      "duration": "June 2020 - June 2024",
+      "description": "Project Manager, Frontend Leader, React Developer, Design Developer, Scrum Master."
+    },
+    {
+      "company": "Secretaría de Educación de Boyacá",
+      "role": "Lecturer",
+      "duration": "July 2018 - March 2023",
+      "description": "Problem solving, front-end development, social skills, software development, teamwork, JavaScript."
+    },
+    {
+      "company": "Fundación Universitaria de San Gil Unisangil",
+      "role": "Lecturer",
+      "duration": "August 2018 – December 2018",
+      "description": "Instructor of English, Computer Architecture, among other subjects."
+    },
+    {
+      "company": "Fundación Universitaria de San Gil Unisangil",
+      "role": "Research Lecturer",
+      "duration": "February 2015 - July 2018",
+      "description": "Lecturer in server administration, database administration, algorithm analysis, programming paradigms, databases, web development, software engineering, project formulation, statistics, English, research group director, software architecture, among others."
+    },
+    {
+      "company": "Audifin SAS",
+      "role": "Auditor",
+      "duration": "February 2014 - June 2014",
+      "description": "Developer of the strategic planning system, quality indicators generator and auditor, economic study analysis, maintenance of the Quality System."
+    },
+    {
+      "company": "Institución Educativa Albert Einstein",
+      "role": "Lecturer",
+      "duration": "March 2013 - October 2013",
+      "description": "Lecturer in technology, mathematics, and physics."
+    },
+    {
+      "company": "ESE Hospital Regional de Chiquinquirá",
+      "role": "Statistics Coordinator",
+      "duration": "September 2011 - October 2012",
+      "description": "Hospital data analysis through server queries, indicator generation, and risk analysis."
+    },
+    {
+      "company": "ESE Hospital Regional de Chiquinquirá",
+      "role": "Database Administrator",
+      "duration": "March 2011 - August 2011",
+      "description": "Database administrator, data analyst, report generation using SQL Server."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Distrital Francisco José de Caldas",
+      "degree": "Systems Engineer",
+      "year": "2012",
+      "thesis": "Business analysis software developed in PHP, CSS, and HTML for small and medium-sized enterprises, enabling inventory analysis."
+    },
+    {
+      "institution": "Universidad Internacional de la Rioja",
+      "degree": "Master’s in Integrated Management Systems",
+      "year": "2015",
+      "thesis": "Integrated Quality and Environmental Management System with a specialization in Ergonomics and Applied Psychosociology."
+    },
+    {
+      "institution": "Fundación Universitaria del Área Andina",
+      "degree": "Specialist in Teaching and Pedagogy",
+      "year": "2018",
+      "thesis": "Equivalence of results in internal and external tests in communicative reading and mathematical reasoning at the Nuestra Señora del Carmen Institution."
+    },
+    {
+      "institution": "Servicio Nacional de Aprendizaje (SENA)",
+      "degree": "Technologist in Visual Graphic Media Development",
+      "year": "In practical training phase",
+      "thesis": "Productive stage: Employment or contractual linkage."
+    }
+  ]
+}

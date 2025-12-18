@@ -1,0 +1,130 @@
+{
+  "name": "Carlos Andres Daza Parra",
+  "title": "Docente | Desarrollador | Investigador",
+  "contact": {
+    "email": "cdazaparra@gmail.com",
+    "phone": "+57 302 612 62 62",
+    "location": "Chiquinquirá, Colombia",
+    "summary1":"Soy Ingeniero de Sistemas con una Maestría en Sistemas Integrados de Gestión y Especialización en Docencia y Pedagogía, con más de 10 años de experiencia en la enseñanza y gestión de proyectos tecnológicos. Mi trayectoria abarca roles como docente universitario, director de proyectos y especialista en desarrollo de software, con un enfoque especial en Cloud Computing (AWS/Azure), algoritmos, desarrollo web, bases de datos y gestión de proyectos.",
+    "summary2":"He trabajado como docente en varias instituciones de renombre, como Jala University, Tecnalia Colombia y Universitaria de Colombia, en asignaturas clave de ingeniería de sistemas y desarrollo de software. Además, me he desempeñado como Director de Proyectos en International Data Information and Consulting SAS, liderando equipos multidisciplinarios y manejando proyectos de desarrollo frontend, diseño y administración de sistemas con metodologías ágiles como Scrum.",
+    "summary3":"Mi enfoque en la educación se complementa con una sólida formación en gestión de la calidad y ergonomía aplicada, que he implementado tanto en el ámbito académico como en la industria. Mi experiencia también incluye roles de gestión de bases de datos, auditoría de sistemas y análisis de datos en el sector de la salud."
+  },
+  "experience": [
+    {
+      "company": "Jala University",
+      "role": "Docente",
+      "duration": "Julio de 2025 - Agosto de 2025",
+      "description": "Algoritmos 1."
+    },
+    {
+      "company": "Tecnalia Colombia",
+      "role": "Docente",
+      "duration": "Mayo de 2025 - Julio de 2025",
+      "description": "Docente de Cloud Computing (AWS/Azure)."
+    },
+    {
+      "company": "Jala University",
+      "role": "Docente",
+      "duration": "Febrero de 2025 - Marzo de 2025",
+      "description": "Algoritmos 1."
+    },
+    {
+      "company": "Tecnalia Colombia",
+      "role": "Docente",
+      "duration": "Diciembre de 2024 - Enero de 2025",
+      "description": "Docente de Cloud Computing (AWS/Azure)."
+    },
+    {
+      "company": "Tecnalia Colombia",
+      "role": "Docente",
+      "duration": "Agosto de 2024 - Septiembre de 2024",
+      "description": "Docente de Cloud Computing (AWS/Azure)."
+    },
+    {
+      "company": "Tecnalia Colombia",
+      "role": "Docente",
+      "duration": "Mayo de 2024 - Agosto de 2024",
+      "description": "Docente de Cloud Computing (AWS/Azure)."
+    },
+    {
+      "company": "Universitaria de Colombia",
+      "role": "Docente",
+      "duration": "Septiembre de 2023 - Mayo de 2024",
+      "description": "Docente de desarrollo de video juegos, Bases de datos, Diseño web, entre otros."
+    },
+    {
+      "company": "International Data Information And Consulting SAS",
+      "role": "Director de proyectos",
+      "duration": "Junio de 2020 - Junio de 2024",
+      "description": "Project Manager, Frontend Leader, React Developer, Desing Developer, Scrum Master."
+    },
+    {
+      "company": "Secretaría de Educación de Boyacá",
+      "role": "Docente",
+      "duration": "Julio de 2018 - Marzo de 2023",
+      "description": "Resolución de problemas, Desarrollo front end, Habilidades sociales, Desarrollo de software, Trabajo en equipo, JavaScript."
+    },
+    {
+      "company": "Fundación Universitaria de San Gil Unisangil",
+      "role": "Docente",
+      "duration": "Agosto de 2018 - Diciembre de 2018",
+      "description": "Docente de Inglés, Arquitectura de computadores, entre otros."
+    },
+    {
+      "company": "Fundación Universitaria de San Gil Unisangil",
+      "role": "Docente investigador",
+      "duration": "Febrero de 2015 - Julio de 2018",
+      "description": "Docente de Administración de servidores, Administrador de bases de datos, Análisis de algoritmos, Paradigmas de programación, Bases de datos, Desarrollo Web, Ingeniería de software, Formulación de proyectos, Estadística, Ingles, Director de grupo de investigación, Arquitectura de software, entre otros."
+    },
+    {
+      "company": "Audifin SAS",
+      "role": "Auditor",
+      "duration": "Febrero de 2014 - Junio de 2014",
+      "description": "Desarrollador del sistema de planeación estratégica, generador y auditor de indicadores de calidad, Análisis de estudios económicos, Mantenimiento del sistema de Calidad."
+    },
+    {
+      "company": "Institución Educativa Albert Einstein",
+      "role": "Docente",
+      "duration": "Marzo de 2013 - Octubre de 2013",
+      "description": "Docente de tecnología, matemáticas y física."
+    },
+    {
+      "company": "ESE Hospital Regional de Chiquinquirá",
+      "role": "Coordinador de estadística",
+      "duration": "Septiembre de 2011 - Octubre de 2012",
+      "description": "Análisis de datos del hospital por medio de consultas al servidos, generador de indicadores y análisis de riesgos."
+    },
+    {
+      "company": "ESE Hospital Regional de Chiquinquirá",
+      "role": "Administrador de Bases de Datos",
+      "duration": "Marzo de 2011 - Agosto de 2011",
+      "description": "Administador de bases de datos, analista de datos, generador de informes con SqlServer."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Distrital Francisco José de Caldas",
+      "degree": "Ingeniero de Sistemas",
+      "year": "2012",
+      "thesis": "Software de análisis empresarial hecho en PHP, CSS y HTML para medianas y pequeñas empresas que permite un análisis de los inventarios."
+    },
+    {
+      "institution": "Universidad Internacional de la Rioja",
+      "degree": "Magister en Sistemas Integrados de Gestión",
+      "year": "2015",
+      "thesis": "Sistema Integrado de Gestión de Calidad y Medio Ambiente en la especialidad de Ergonomía y Psicosociología Aplicada."
+    },
+    {
+      "institution": "Fundación universitaria del Área Andina",
+      "degree": "Especialista en docencia y pedagogía",
+      "year": "2018",
+      "thesis": "Equivalencia de resultados en pruebas internas y externas en la lectura comunicativa y razonamiento matemático en la Institución Nuestra Señora del Carmen."
+    },
+    {
+      "institution": "Servicio Nacional de Aprendizaje (SENA)",
+      "degree": "Tecnólogo en Desarrollo de Medios Gráficos Visuales",
+      "year": "En etapa productiva",
+      "thesis": "Etapa productiva: Vinculación Laboral o contractual."
+    }
+  ]
+}
