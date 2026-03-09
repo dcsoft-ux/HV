@@ -1,48 +1,70 @@
 {
   "name": "Carlos Andres Daza Parra",
-  "title": "Docente | Desarrollador | Investigador",
   "contact": {
-    "email": "cdazaparra@gmail.com",
+    "email": "cdazaparra@gmail.cresumeDataom",
     "phone": "+57 302 612 62 62",
     "location": "Chiquinquirá, Colombia",
-    "summary1":"Ingeniero de Sistemas con Maestría en Sistemas Integrados de Gestión y Especialización en Docencia y Pedagogía, con más de 10 años de experiencia como docente universitario, desarrollador y director de proyectos tecnológicos. Experto en Cloud Computing (AWS/Azure), desarrollo web y gestión de proyectos ágiles (Scrum), con trayectoria liderando equipos multidisciplinarios y formando profesionales en ingeniería de sistemas. Destaco por integrar la visión académica con la práctica empresarial, enfocándome en calidad, innovación y mejora continua."
+    "summary1":"Ingeniero de Sistemas con Maestría en Sistemas Integrados de Gestión y Especialización en Docencia y Pedagogía, con más de 10 años de experiencia en educación superior, formación tecnológica y desarrollo de software.",
+    "summary2":"Especialista en enseñanza de programación, computación en la nube y desarrollo web, con experiencia en educación virtual y formación en plataformas LMS como Moodle, Canvas y entornos colaborativos digitales.",
+    "summary3":"He trabajado como docente universitario, instructor de bootcamps tecnológicos y líder de proyectos de desarrollo, integrando metodologías ágiles (Scrum) y aprendizaje basado en proyectos para fortalecer competencias técnicas en estudiantes de ingeniería y tecnología.",
+    "title": "Resumen Profesional"
   },
-  "experience": [
+  "experience": {
+    "title": "Experiencia Profesional",
+    "items": [
+    {
+      "company": "BootCamp Institute",
+      "role": "Docente",
+      "duration": "Febrero de 2026 - Actualmente",
+      "description": "Instructor en programas internacionales de formación tecnológica, Formación en Cloud Computing y Mentoría técnica a estudiantes."
+    },
+    {
+      "company": "BootCamp Institute",
+      "role": "Docente",
+      "duration": "Noviembre de 2025 - Febrero de 2026",
+      "description": "Instructor en programas internacionales de formación tecnológica, Formación en Soporte IT y Mentoría técnica a estudiantes."
+    },
+    {
+      "company": "Jala University",
+      "role": "Docente",
+      "duration": "Febrero de 2026 - Marzo de 2026",
+      "description": "Docente de Algoritmos, Desarrollo de evaluaciones y actividades prácticas."
+    },
     {
       "company": "Jala University",
       "role": "Docente",
       "duration": "Julio de 2025 - Agosto de 2025",
-      "description": "Algoritmos 1."
+      "description": "Docente de Algoritmos, Desarrollo de evaluaciones y actividades prácticas."
     },
     {
       "company": "Tecnalia Colombia",
       "role": "Docente",
       "duration": "Mayo de 2025 - Julio de 2025",
-      "description": "Docente de Cloud Computing (AWS/Azure)."
+      "description": "Instructor en programas internacionales de formación tecnológica, Formación en Cloud Computing y Mentoría técnica a estudiantes."
     },
     {
       "company": "Jala University",
       "role": "Docente",
       "duration": "Febrero de 2025 - Marzo de 2025",
-      "description": "Algoritmos 1."
+      "description": "Docente de Algoritmos, Desarrollo de evaluaciones y actividades prácticas."
     },
     {
       "company": "Tecnalia Colombia",
       "role": "Docente",
       "duration": "Diciembre de 2024 - Enero de 2025",
-      "description": "Docente de Cloud Computing (AWS/Azure)."
+      "description": "Formación en AWS y Azure, Diseño de laboratorios prácticos en la nube y Enseñanza basada en proyectos."
     },
     {
       "company": "Tecnalia Colombia",
       "role": "Docente",
       "duration": "Agosto de 2024 - Septiembre de 2024",
-      "description": "Docente de Cloud Computing (AWS/Azure)."
+      "description": "Formación en AWS y Azure, Diseño de laboratorios prácticos en la nube y Enseñanza basada en proyectos."
     },
     {
       "company": "Tecnalia Colombia",
       "role": "Docente",
       "duration": "Mayo de 2024 - Agosto de 2024",
-      "description": "Docente de Cloud Computing (AWS/Azure)."
+      "description": "Instructor en programas internacionales de formación tecnológica, Formación en Cloud Computing y Mentoría técnica a estudiantes."
     },
     {
       "company": "Universitaria de Colombia",
@@ -66,7 +88,7 @@
       "company": "Fundación Universitaria de San Gil Unisangil",
       "role": "Docente",
       "duration": "Agosto de 2018 - Diciembre de 2018",
-      "description": "Docente de Inglés, Arquitectura de computadores, entre otros."
+      "description": "Docente de Inglés, Arquitectura de computadores, Desarrollo de Software, entre otros."
     },
     {
       "company": "Fundación Universitaria de San Gil Unisangil",
@@ -98,8 +120,11 @@
       "duration": "Marzo de 2011 - Agosto de 2011",
       "description": "Administador de bases de datos, analista de datos, generador de informes con SqlServer."
     }
-  ],
-  "education": [
+  ]
+},
+  "education": {
+    "title": "Educación",
+    "items": [
     {
       "institution": "Universidad Distrital Francisco José de Caldas",
       "degree": "Ingeniero de Sistemas",
@@ -107,13 +132,13 @@
       "thesis": "Software de análisis empresarial hecho en PHP, CSS y HTML para medianas y pequeñas empresas que permite un análisis de los inventarios."
     },
     {
-      "institution": "Universidad Internacional de la Rioja",
+      "institution": "Universidad Internacional De La Rioja",
       "degree": "Magister en Sistemas Integrados de Gestión",
       "year": "2015",
       "thesis": "Sistema Integrado de Gestión de Calidad y Medio Ambiente en la especialidad de Ergonomía y Psicosociología Aplicada."
     },
     {
-      "institution": "Fundación universitaria del Área Andina",
+      "institution": "Fundación Universitaria Del Área Andina",
       "degree": "Especialista en docencia y pedagogía",
       "year": "2018",
       "thesis": "Equivalencia de resultados en pruebas internas y externas en la lectura comunicativa y razonamiento matemático en la Institución Nuestra Señora del Carmen."
@@ -124,8 +149,11 @@
       "year": "2025",
       "thesis": "Etapa productiva: Vinculación Laboral o contractual."
     }
-  ],
-  "Competencias_Tecnicas":[
+  ]
+},
+  "Competencias_Tecnicas":{
+    "title": "Habilidades Técnicas",
+    "items": [
   {
     "data": "Lenguajes : JavaScript, PHP, SQL, Python"
   },
@@ -145,10 +173,34 @@
   "data": "Metodologías : Scrum"
 },
 {
-  "data": "Herramientas : Git, GitHub, Jira, Trello"
+  "data": "Herramientas : Git, GitHub, Jira, Trello, Slack, Canvas, Moodle"
 },
 {
   "data":  "Otros : Auditoría de sistemas, análisis de datos"
 }
   ]
+},
+  "Fortalezas_Docente":{
+    "title": "Competencias Docente",
+    "items": [
+  {
+    "data": "Diseño de cursos en línea."
+  },
+{
+    "data": "Aprendizaje basado en proyectos."
+},
+{
+    "data": "Tutoría remota y acompañamiento académico."
+},
+{
+  "data": "Desarrollo de laboratorios prácticos."
+},
+{
+  "data": "Evaluación por competencias."
+},
+{
+  "data": "Uso de LMS y herramientas colaborativas."
+}
+  ]
+}
 }

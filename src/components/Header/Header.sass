@@ -44,14 +44,24 @@
                 border-radius: 50%
                 object-fit: cover
     .networking
-        margin: 1rem
-        font-size: 1rem
+        margin: 0.5rem
+        font-size: 0.8rem
         display: grid
-        grid-template-columns: repeat(3, 1fr)
-        .networking-link
-            text-decoration: none
-            color: blue
-            font-weight: bold
+        justify-items: start;
+        justify-content: start;
+        align-items: center;
+        grid-template-rows: repeat(3, 1fr)
+        .networking-space
+            display: grid;
+            grid-template-columns: 70px 4fr
+            justify-items: start;
+            .networking-space-link
+                text-decoration: none
+                justify-items: start;
+                color: blue
+                font-weight: bold
+            .networking-space-data
+                color: black;
     .line
         margin: 1rem
         border: 1px solid blue

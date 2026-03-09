@@ -7,7 +7,7 @@ const Resumen = ({resumen}) => {
     <section className='Sumary'>
         <h3 className='tittle'>
             <div className='tittle-icon'><FontAwesomeIcon icon={faFingerprint} /></div>
-            <div className='tittle-tittle'>Resumen Profesional</div>
+            <div className='tittle-tittle'>{resumen.title}</div>
         </h3>
         <div className='sumary'>
             <div className='sumary-text'>{resumen.summary1}</div>
