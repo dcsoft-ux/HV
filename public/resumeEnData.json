@@ -1,178 +1,130 @@
 {
   "name": "Carlos Andres Daza Parra",
+  "title": "Lecturer | Developer | Researcher",
   "contact": {
     "email": "cdazaparra@gmail.com",
     "phone": "+57 302 612 62 62",
     "location": "Chiquinquirá, Colombia",
-    "summary1": "Systems Engineer with a Master's degree in Integrated Management Systems and a specialization in Teaching and Pedagogy, with over 10 years of experience in higher education, technology training, and software engineering.",
-    "summary2": "Specialist in programming education, cloud computing, and web application development, with experience in online learning environments and training through LMS platforms such as Moodle and Canvas, as well as collaborative digital ecosystems.",
-    "summary3": "Experienced as a university professor, technology bootcamp instructor, and software project leader, applying Agile methodologies (Scrum) and project-based learning approaches to develop technical competencies in engineering and technology students.",
-    "title": "Professional Summary"
+    "summary1": "I am a Systems Engineer with a Master's Degree in Integrated Management Systems and a Specialization in Teaching and Pedagogy, with over 10 years of experience in teaching and managing technology projects. My career spans roles such as university lecturer, project director, and software development specialist, with a strong focus on Cloud Computing (AWS/Azure), algorithms, web development, databases, and project management.",
+    "summary2": "I have worked as a lecturer at several prestigious institutions, including Jala University, Tecnalia Colombia, and Universitaria de Colombia, teaching key subjects in systems engineering and software development. Additionally, I served as Project Director at International Data Information and Consulting SAS, leading multidisciplinary teams and managing frontend development, design, and system administration projects using agile methodologies such as Scrum.",
+    "summary3": "My focus on education is complemented by a strong background in quality management and applied ergonomics, which I have implemented in both academic and industry settings. My experience also includes roles in database management, systems auditing, and data analysis in the healthcare sector."
   },
-  "experience": {
-    "title": "Professional Experience",
-    "items": [
-    {
-      "company": "BootCamp Institute",
-      "role": "Technical Instructor",
-      "duration": "February 2026 - Present",
-      "description": "Instructor in international technology training programs, delivering Cloud Computing courses and providing technical mentorship to students."
-    },
-    {
-      "company": "BootCamp Institute",
-      "role": "Technical Instructor",
-      "duration": "November 2025 - February 2026",
-      "description": "Instructor in international technology training programs focused on IT Support and technical mentoring for students."
-    },
+  "experience": [
     {
       "company": "Jala University",
-      "role": "Adjunct Professor",
-      "duration": "February 2026 - March 2026",
-      "description": "Algorithms instructor responsible for designing programming assessments and hands-on learning activities."
-    },
-    {
-      "company": "Jala University",
-      "role": "Adjunct Professor",
+      "role": "Lecturer",
       "duration": "July 2025 - August 2025",
-      "description": "Algorithms instructor responsible for designing programming assessments and hands-on learning activities."
+      "description": "Algorithms 1."
     },
     {
       "company": "Tecnalia Colombia",
-      "role": "Cloud Computing Instructor",
+      "role": "Lecturer",
       "duration": "May 2025 - July 2025",
-      "description": "Instructor in international technology programs, delivering Cloud Computing training and providing technical mentoring."
+      "description": "Cloud Computing Lecturer (AWS/Azure)."
     },
     {
       "company": "Jala University",
-      "role": "Adjunct Professor",
+      "role": "Lecturer",
       "duration": "February 2025 - March 2025",
-      "description": "Algorithms instructor responsible for developing assessments and practical exercises in computational problem solving."
+      "description": "Algorithms 1."
     },
     {
       "company": "Tecnalia Colombia",
-      "role": "Cloud Computing Instructor",
+      "role": "Lecturer",
       "duration": "December 2024 - January 2025",
-      "description": "Delivered AWS and Azure training programs, designed cloud-based laboratory environments, and implemented project-based learning methodologies."
+      "description": "Cloud Computing Lecturer (AWS/Azure)."
     },
     {
       "company": "Tecnalia Colombia",
-      "role": "Cloud Computing Instructor",
+      "role": "Lecturer",
       "duration": "August 2024 - September 2024",
-      "description": "Delivered AWS and Azure training programs, designed cloud-based laboratory environments, and implemented project-based learning methodologies."
+      "description": "Cloud Computing Lecturer (AWS/Azure)."
     },
     {
       "company": "Tecnalia Colombia",
-      "role": "Cloud Computing Instructor",
+      "role": "Lecturer",
       "duration": "May 2024 - August 2024",
-      "description": "Instructor in international technology training programs focused on Cloud Computing and technical mentorship."
+      "description": "Cloud Computing Lecturer (AWS/Azure)."
     },
     {
       "company": "Universitaria de Colombia",
-      "role": "University Lecturer",
+      "role": "Lecturer",
       "duration": "September 2023 - May 2024",
-      "description": "Lecturer in Video Game Development, Database Systems, and Web Design."
+      "description": "Lecturer in video game development, databases, web design, among others."
     },
     {
       "company": "International Data Information And Consulting SAS",
       "role": "Project Director",
       "duration": "June 2020 - June 2024",
-      "description": "Project Manager, Frontend Lead, React Developer, UI/UX Designer, and Scrum Master responsible for managing software development lifecycle processes."
+      "description": "Project Manager, Frontend Leader, React Developer, Design Developer, Scrum Master."
     },
     {
-      "company": "Department of Education of Boyacá",
-      "role": "Technology Instructor",
+      "company": "Secretaría de Educación de Boyacá",
+      "role": "Lecturer",
       "duration": "July 2018 - March 2023",
-      "description": "Teaching programming fundamentals, frontend development, problem solving, teamwork, and JavaScript-based software development."
+      "description": "Problem solving, front-end development, social skills, software development, teamwork, JavaScript."
     },
     {
       "company": "Fundación Universitaria de San Gil Unisangil",
-      "role": "University Lecturer",
-      "duration": "August 2018 - December 2018",
-      "description": "Instructor in English, Computer Architecture, and Software Development."
+      "role": "Lecturer",
+      "duration": "August 2018 – December 2018",
+      "description": "Instructor of English, Computer Architecture, among other subjects."
     },
     {
       "company": "Fundación Universitaria de San Gil Unisangil",
-      "role": "Research Professor",
+      "role": "Research Lecturer",
       "duration": "February 2015 - July 2018",
-      "description": "Instructor in Server Administration, Database Systems, Algorithm Analysis, Programming Paradigms, Software Engineering, Web Development, and Software Architecture. Research group leader and academic project advisor."
+      "description": "Lecturer in server administration, database administration, algorithm analysis, programming paradigms, databases, web development, software engineering, project formulation, statistics, English, research group director, software architecture, among others."
     },
     {
       "company": "Audifin SAS",
-      "role": "Systems Auditor",
+      "role": "Auditor",
       "duration": "February 2014 - June 2014",
-      "description": "Developer of strategic planning systems, responsible for quality indicator generation and auditing, economic data analysis, and maintenance of quality management systems."
+      "description": "Developer of the strategic planning system, quality indicators generator and auditor, economic study analysis, maintenance of the Quality System."
     },
     {
       "company": "Institución Educativa Albert Einstein",
-      "role": "Technology Instructor",
+      "role": "Lecturer",
       "duration": "March 2013 - October 2013",
-      "description": "Instructor in Technology, Mathematics, and Physics."
+      "description": "Lecturer in technology, mathematics, and physics."
     },
     {
       "company": "ESE Hospital Regional de Chiquinquirá",
       "role": "Statistics Coordinator",
       "duration": "September 2011 - October 2012",
-      "description": "Healthcare data analysis using database queries, development of operational indicators, and risk analysis for institutional decision-making."
+      "description": "Hospital data analysis through server queries, indicator generation, and risk analysis."
     },
     {
       "company": "ESE Hospital Regional de Chiquinquirá",
       "role": "Database Administrator",
       "duration": "March 2011 - August 2011",
-      "description": "Database administration, data analysis, and report generation using Microsoft SQL Server."
+      "description": "Database administrator, data analyst, report generation using SQL Server."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Distrital Francisco José de Caldas",
+      "degree": "Systems Engineer",
+      "year": "2012",
+      "thesis": "Business analysis software developed in PHP, CSS, and HTML for small and medium-sized enterprises, enabling inventory analysis."
+    },
+    {
+      "institution": "Universidad Internacional de la Rioja",
+      "degree": "Master’s in Integrated Management Systems",
+      "year": "2015",
+      "thesis": "Integrated Quality and Environmental Management System with a specialization in Ergonomics and Applied Psychosociology."
+    },
+    {
+      "institution": "Fundación Universitaria del Área Andina",
+      "degree": "Specialist in Teaching and Pedagogy",
+      "year": "2018",
+      "thesis": "Equivalence of results in internal and external tests in communicative reading and mathematical reasoning at the Nuestra Señora del Carmen Institution."
+    },
+    {
+      "institution": "Servicio Nacional de Aprendizaje (SENA)",
+      "degree": "Technologist in Visual Graphic Media Development",
+      "year": "In practical training phase",
+      "thesis": "Productive stage: Employment or contractual linkage."
     }
   ]
-},
-  "education": {
-    "title": "Education",
-    "items": [
-      {
-        "institution": "Universidad Distrital Francisco José de Caldas",
-        "degree": "B.Sc. in Systems Engineering",
-        "year": "2012",
-        "thesis": "Enterprise analysis software developed using PHP, CSS, and HTML for small and medium-sized enterprises to support inventory analytics."
-      },
-      {
-        "institution": "Universidad Internacional De La Rioja",
-        "degree": "M.Sc. in Integrated Management Systems",
-        "year": "2015",
-        "thesis": "Integrated Quality and Environmental Management System specializing in Ergonomics and Applied Psychosociology."
-      },
-      {
-        "institution": "Fundación Universitaria Del Área Andina",
-        "degree": "Specialization in Teaching and Pedagogy",
-        "year": "2018",
-        "thesis": "Equivalence analysis of internal and external evaluation results in communicative reading and mathematical reasoning at Nuestra Señora del Carmen Institution."
-      },
-      {
-        "institution": "Servicio Nacional de Aprendizaje (SENA)",
-        "degree": "Technologist in Visual Graphic Media Development",
-        "year": "2025",
-        "thesis": "Professional practice stage: employment or contractual engagement."
-      }
-  ]
-  },
-  "Competencias_Tecnicas": {
-    "title": "Technical Skills",
-    "items": [
-      { "data": "Programming Languages: JavaScript, PHP, SQL, Python" },
-      { "data": "Frontend Technologies: React, HTML5, CSS3" },
-      { "data": "Backend Technologies: Node.js, Python (Django)" },
-      { "data": "Cloud Platforms: AWS, Microsoft Azure" },
-      { "data": "Database Systems: SQL Server, MySQL" },
-      { "data": "Methodologies: Scrum, Agile Development" },
-      { "data": "Development Tools: Git, GitHub, Jira, Trello, Slack, Canvas, Moodle" },
-      { "data": "Other Skills: Systems auditing, data analytics" }
-    ]
-  },
-  "Fortalezas_Docente": {
-    "title": "Teaching Competencies",
-    "items": [
-      {"data": "Online course design and curriculum development."},
-      {"data": "Project-based and experiential learning methodologies."},
-      {"data": "Remote mentoring and academic advising."    },
-      {"data": "Design and implementation of practical technical laboratories."},
-      {"data": "Competency-based assessment strategies."},
-      {"data": "Use of LMS platforms and collaborative learning tools."}
-    ]
-  }
 }

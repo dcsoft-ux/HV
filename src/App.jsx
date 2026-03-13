@@ -4,14 +4,14 @@ import Experience from './components/Experience/Experience';
 import Education from './components/Education/Education';
 import Resumen from './components/Resumen/Resumen';
 import Competencias_Tecnicas from './components/Competencias_Tecnicas/Competencias_Tecnicas';
-import Fortalezas_Docente from './components/Fortalezas_Docente/Fortalezas_Docente';
+
 const App = () => {
-  const [resumeData, setresumeData] = useState(null);
+  const [resumeData, setResumeData] = useState(null);
 
   useEffect(() => {
     fetch('/resumeData.json')
       .then(res => res.json())
-      .then(data => setresumeData(data));
+      .then(data => setResumeData(data));
   }, []);
 
   if (!resumeData) return <div>Cargando...</div>;
@@ -23,7 +23,6 @@ const App = () => {
       <Education education={resumeData.education} />
       <Experience experience={resumeData.experience} />
       <Competencias_Tecnicas Competencias_Tecnicas={resumeData.Competencias_Tecnicas}/>
-      <Fortalezas_Docente Fortalezas_Docente={resumeData.Fortalezas_Docente}/>
     </div>
   );
 }

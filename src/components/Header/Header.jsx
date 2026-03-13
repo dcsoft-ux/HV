@@ -5,9 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope,faMobileScreenButton,faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 // ...existing code...
-const Header = ({ name, contact }) => (
+const Header = ({ name, title, contact }) => (
   <div className='header'>
     <h1 className='name'>{name}</h1>
+    <h2 className='tittle'>{title}</h2>
     <div className='data'>
       <div className='data-basic'>
         <div className='data-basic-icon'><FontAwesomeIcon icon={faEnvelope} /></div>
@@ -22,19 +23,9 @@ const Header = ({ name, contact }) => (
       </div>
     </div>
     <div className='networking'>
-        <div className='networking-space'>
-        <div className='networking-space-link'><b>LinkedIn : </b></div>
-        <div  className='networking-space-data'>linkedin.com/in/dcsoft/</div>
-      </div>
-        <div className='networking-space'>
-        <div className='networking-space-link'><b>GitHub : </b></div>
-        <div  className='networking-space-data'>github.com/dcsoft-ux/</div>
-      </div>
-        <div className='networking-space'>
-        <div className='networking-space-link'><b>CvLac : </b></div>
-        <div  className='networking-space-data'>scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001614128/</div>
-      </div>
-    </div>
+      <a className='networking-link' href="https://www.linkedin.com/in/dcsoft/" target="_blank"><b>LinkedIn</b></a>
+      <a className='networking-link' href="https:/github.com/dcsoft-ux" target="_blank"><b>GitHub</b></a> 
+      <a className='networking-link' href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001614128" target="_blank"><b>CvLac</b></a></div>
     <hr className='line' />
   </div>
 );

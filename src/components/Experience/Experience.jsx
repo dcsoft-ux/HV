@@ -8,11 +8,9 @@ const Experience = ({ experience }) => (
   <section className='Experience'>
     <h3 className='tittle'>
       <div className='tittle-icon'><FontAwesomeIcon icon={faBriefcase} /></div>
-      <div className='tittle-tittle'>
-        {experience.title}
-      </div>
+      <div className='tittle-tittle'>Experiencia Laboral</div>
     </h3>
-    {experience.items.map((job, index) => (
+    {experience.map((job, index) => (
       <div className='data' key={index}>
         <h4 className='card'>
           <div className='card-icon'><FontAwesomeIcon icon={faBuilding} /></div>
