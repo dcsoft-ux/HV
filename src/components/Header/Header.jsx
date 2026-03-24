@@ -5,7 +5,8 @@ import {
   faEnvelope,
   faPhone,
   faLocationDot,
-  faGlobe
+  faGlobe,
+  faArrowUpRightFromSquare
 } from '@fortawesome/free-solid-svg-icons'
 
 const images = import.meta.glob('../../assets/*', {
@@ -43,10 +44,6 @@ const Header = ({ hero }) => {
           </div>
 
           <div className="header__intro">
-            {hero?.eyebrow ? (
-              <p className="header__eyebrow">{hero.eyebrow}</p>
-            ) : null}
-
             <h1 className="header__name">
               {hero?.name || 'Nombre no definido'}
             </h1>
@@ -96,9 +93,14 @@ const Header = ({ hero }) => {
                 target="_blank"
                 rel="noreferrer"
                 className="header__link"
+                title={link.url}
               >
-                <span className="header__link-label">{link.label}</span>
-                <span className="header__link-value">{link.url}</span>
+                <div className="header__link-top">
+                  <span className="header__link-label">{link.label}</span>
+                  <span className="header__link-icon">
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                  </span>
+                </div>
               </a>
             ))}
           </div>

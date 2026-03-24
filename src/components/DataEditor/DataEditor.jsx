@@ -2,6 +2,31 @@ import React, { useEffect, useMemo, useState } from 'react'
 import './DataEditor.sass'
 
 const sectionMap = {
+  hero: {
+    title: 'Header',
+    path: ['hero'],
+    empty: {
+      eyebrow: '',
+      name: '',
+      headline: '',
+      email: '',
+      phone: '',
+      location: '',
+      website: '',
+      photo: '',
+      links: [],
+      metrics: []
+    }
+  },
+  summary: {
+    title: 'Resumen',
+    path: ['summary'],
+    empty: {
+      title: '',
+      subtitle: '',
+      paragraphs: []
+    }
+  },
   experience: {
     title: 'Experiencias',
     path: ['experience', 'items'],
@@ -44,6 +69,25 @@ const sectionMap = {
 const clone = (value) => JSON.parse(JSON.stringify(value))
 
 const normalizeDraft = (sectionKey, item) => {
+  if (sectionKey === 'hero') {
+    return {
+      ...item,
+      linksText: Array.isArray(item.links)
+        ? item.links.map((link) => `${link.label || ''}|${link.display || ''}|${link.url || ''}`).join('\n')
+        : '',
+      metricsText: Array.isArray(item.metrics)
+        ? item.metrics.map((metric) => `${metric.label || ''}|${metric.value || ''}`).join('\n')
+        : ''
+    }
+  }
+
+  if (sectionKey === 'summary') {
+    return {
+      ...item,
+      paragraphsText: Array.isArray(item.paragraphs) ? item.paragraphs.join('\n') : ''
+    }
+  }
+
   if (sectionKey === 'experience') {
     return {
       ...item,
@@ -51,10 +95,58 @@ const normalizeDraft = (sectionKey, item) => {
       tagsText: Array.isArray(item.tags) ? item.tags.join(', ') : ''
     }
   }
+
   return { ...item }
 }
 
 const denormalizeDraft = (sectionKey, draft) => {
+  if (sectionKey === 'hero') {
+    return {
+      eyebrow: draft.eyebrow || '',
+      name: draft.name || '',
+      headline: draft.headline || '',
+      email: draft.email || '',
+      phone: draft.phone || '',
+      location: draft.location || '',
+      website: draft.website || '',
+      photo: draft.photo || '',
+      links: (draft.linksText || '')
+        .split('\n')
+        .map((line) => line.trim())
+        .filter(Boolean)
+        .map((line) => {
+          const [label = '', display = '', url = ''] = line.split('|')
+          return {
+            label: label.trim(),
+            display: display.trim(),
+            url: url.trim()
+          }
+        }),
+      metrics: (draft.metricsText || '')
+        .split('\n')
+        .map((line) => line.trim())
+        .filter(Boolean)
+        .map((line) => {
+          const [label = '', value = ''] = line.split('|')
+          return {
+            label: label.trim(),
+            value: value.trim()
+          }
+        })
+    }
+  }
+
+  if (sectionKey === 'summary') {
+    return {
+      title: draft.title || '',
+      subtitle: draft.subtitle || '',
+      paragraphs: (draft.paragraphsText || '')
+        .split('\n')
+        .map((item) => item.trim())
+        .filter(Boolean)
+    }
+  }
+
   if (sectionKey === 'experience') {
     return {
       company: draft.company || '',
@@ -93,15 +185,21 @@ const denormalizeDraft = (sectionKey, draft) => {
 
 const getItems = (resumeData, sectionKey) => {
   const config = sectionMap[sectionKey]
+
+  if (config.path.length === 1) {
+    return [resumeData?.[config.path[0]] || config.empty]
+  }
+
   return resumeData?.[config.path[0]]?.[config.path[1]] || []
 }
 
 const DataEditor = ({ resumeData, onChange }) => {
-  const [sectionKey, setSectionKey] = useState('experience')
+  const [sectionKey, setSectionKey] = useState('hero')
   const [selectedIndex, setSelectedIndex] = useState(0)
-  const [draft, setDraft] = useState(normalizeDraft('experience', sectionMap.experience.empty))
+  const [draft, setDraft] = useState(normalizeDraft('hero', sectionMap.hero.empty))
 
   const items = useMemo(() => getItems(resumeData, sectionKey), [resumeData, sectionKey])
+  const isSingleSection = sectionKey === 'hero' || sectionKey === 'summary'
 
   useEffect(() => {
     const current = items[selectedIndex]
@@ -126,7 +224,14 @@ const DataEditor = ({ resumeData, onChange }) => {
 
     onChange((prev) => {
       const next = clone(prev)
-      const [root, listKey] = sectionMap[sectionKey].path
+      const config = sectionMap[sectionKey]
+
+      if (config.path.length === 1) {
+        next[config.path[0]] = parsedDraft
+        return next
+      }
+
+      const [root, listKey] = config.path
       const list = Array.isArray(next[root][listKey]) ? [...next[root][listKey]] : []
 
       if (items[selectedIndex]) {
@@ -142,12 +247,13 @@ const DataEditor = ({ resumeData, onChange }) => {
   }
 
   const handleNew = () => {
+    if (isSingleSection) return
     setSelectedIndex(items.length)
     setDraft(normalizeDraft(sectionKey, clone(sectionMap[sectionKey].empty)))
   }
 
   const handleDelete = () => {
-    if (!items[selectedIndex]) return
+    if (isSingleSection || !items[selectedIndex]) return
 
     onChange((prev) => {
       const next = clone(prev)
@@ -176,29 +282,93 @@ const DataEditor = ({ resumeData, onChange }) => {
         ))}
       </div>
 
-      <div className="data-editor__list">
-        {items.map((item, index) => (
-          <button
-            key={`${sectionKey}-${index}`}
-            type="button"
-            className={`data-editor__list-item ${selectedIndex === index ? 'data-editor__list-item--active' : ''}`}
-            onClick={() => setSelectedIndex(index)}
-          >
-            {sectionKey === 'experience' && (item.role || `Experiencia ${index + 1}`)}
-            {sectionKey === 'education' && (item.degree || `Estudio ${index + 1}`)}
-            {sectionKey === 'strengths' && (item.data || `Fortaleza ${index + 1}`)}
-            {sectionKey === 'skills' && (item.label || `Competencia ${index + 1}`)}
-          </button>
-        ))}
-      </div>
+      {!isSingleSection ? (
+        <div className="data-editor__list">
+          {items.map((item, index) => (
+            <button
+              key={`${sectionKey}-${index}`}
+              type="button"
+              className={`data-editor__list-item ${selectedIndex === index ? 'data-editor__list-item--active' : ''}`}
+              onClick={() => setSelectedIndex(index)}
+            >
+              {sectionKey === 'experience' && (item.role || `Experiencia ${index + 1}`)}
+              {sectionKey === 'education' && (item.degree || `Estudio ${index + 1}`)}
+              {sectionKey === 'strengths' && (item.data || `Fortaleza ${index + 1}`)}
+              {sectionKey === 'skills' && (item.label || `Competencia ${index + 1}`)}
+            </button>
+          ))}
+        </div>
+      ) : null}
 
       <div className="data-editor__actions">
-        <button type="button" onClick={handleNew}>Nuevo</button>
+        {!isSingleSection ? <button type="button" onClick={handleNew}>Nuevo</button> : null}
         <button type="button" onClick={handleSave}>Guardar</button>
-        <button type="button" className="danger" onClick={handleDelete}>Eliminar</button>
+        {!isSingleSection ? <button type="button" className="danger" onClick={handleDelete}>Eliminar</button> : null}
       </div>
 
       <div className="data-editor__form">
+        {sectionKey === 'hero' ? (
+          <>
+            <label>
+              Eyebrow
+              <input value={draft.eyebrow || ''} onChange={(e) => handleFieldChange('eyebrow', e.target.value)} />
+            </label>
+            <label>
+              Nombre
+              <input value={draft.name || ''} onChange={(e) => handleFieldChange('name', e.target.value)} />
+            </label>
+            <label>
+              Headline
+              <textarea rows="4" value={draft.headline || ''} onChange={(e) => handleFieldChange('headline', e.target.value)} />
+            </label>
+            <label>
+              Email
+              <input value={draft.email || ''} onChange={(e) => handleFieldChange('email', e.target.value)} />
+            </label>
+            <label>
+              Teléfono
+              <input value={draft.phone || ''} onChange={(e) => handleFieldChange('phone', e.target.value)} />
+            </label>
+            <label>
+              Ubicación
+              <input value={draft.location || ''} onChange={(e) => handleFieldChange('location', e.target.value)} />
+            </label>
+            <label>
+              Website
+              <input value={draft.website || ''} onChange={(e) => handleFieldChange('website', e.target.value)} />
+            </label>
+            <label>
+              Foto
+              <input value={draft.photo || ''} onChange={(e) => handleFieldChange('photo', e.target.value)} />
+            </label>
+            <label>
+              Links (uno por línea: label|display|url)
+              <textarea rows="6" value={draft.linksText || ''} onChange={(e) => handleFieldChange('linksText', e.target.value)} />
+            </label>
+            <label>
+              Métricas (una por línea: label|value)
+              <textarea rows="4" value={draft.metricsText || ''} onChange={(e) => handleFieldChange('metricsText', e.target.value)} />
+            </label>
+          </>
+        ) : null}
+
+        {sectionKey === 'summary' ? (
+          <>
+            <label>
+              Título
+              <input value={draft.title || ''} onChange={(e) => handleFieldChange('title', e.target.value)} />
+            </label>
+            <label>
+              Subtítulo
+              <input value={draft.subtitle || ''} onChange={(e) => handleFieldChange('subtitle', e.target.value)} />
+            </label>
+            <label>
+              Párrafos (uno por línea)
+              <textarea rows="8" value={draft.paragraphsText || ''} onChange={(e) => handleFieldChange('paragraphsText', e.target.value)} />
+            </label>
+          </>
+        ) : null}
+
         {sectionKey === 'experience' ? (
           <>
             <label>

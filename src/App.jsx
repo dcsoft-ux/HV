@@ -29,10 +29,26 @@ const App = () => {
   const [activeTab, setActiveTab] = useState('vista')
   const [error, setError] = useState('')
   const [sourceName, setSourceName] = useState('resumeData.json')
+  const [availableJsonFiles, setAvailableJsonFiles] = useState([])
   const [theme, setTheme] = useState(() => {
     const saved = localStorage.getItem(STORAGE_KEYS.theme)
     return saved ? JSON.parse(saved) : defaultTheme
   })
+
+  useEffect(() => {
+    const loadJsonIndex = async () => {
+      try {
+        const res = await fetch('/json-files.json')
+        if (!res.ok) throw new Error()
+        const data = await res.json()
+        setAvailableJsonFiles(Array.isArray(data.files) ? data.files : [])
+      } catch {
+        setAvailableJsonFiles(['resumeData.json'])
+      }
+    }
+
+    loadJsonIndex()
+  }, [])
 
   useEffect(() => {
     const savedResume = localStorage.getItem(STORAGE_KEYS.resume)
@@ -71,6 +87,21 @@ const App = () => {
     setSourceName(source)
     localStorage.setItem(STORAGE_KEYS.resume, JSON.stringify(data))
     localStorage.setItem(STORAGE_KEYS.source, source)
+  }
+
+  const loadJsonFromPublic = async (fileName) => {
+    if (!fileName) return
+
+    try {
+      const res = await fetch(`/${fileName}`)
+      if (!res.ok) throw new Error()
+      const data = await res.json()
+      persistResume(data, fileName)
+      setError('')
+      setActiveTab('vista')
+    } catch {
+      setError(`No se pudo cargar el archivo ${fileName}.`)
+    }
   }
 
   const handleImportJson = (file) => {
@@ -203,12 +234,18 @@ const App = () => {
             ) : null}
 
             {activeTab === 'tema' ? (
-              <ThemeEditor theme={theme} onChange={setTheme} onReset={() => setTheme(defaultTheme)} />
+              <ThemeEditor
+                theme={theme}
+                onChange={setTheme}
+                onReset={() => setTheme(defaultTheme)}
+              />
             ) : null}
 
             {activeTab === 'json' ? (
               <JsonManager
                 sourceName={sourceName}
+                availableJsonFiles={availableJsonFiles}
+                onSelectExisting={loadJsonFromPublic}
                 onImport={handleImportJson}
                 onReset={handleResetJson}
                 onDownload={handleDownloadJson}
@@ -225,7 +262,11 @@ const App = () => {
             </div>
 
             <div className="app__toolbar-actions">
-              <button type="button" className="app__action app__action--secondary" onClick={() => setActiveTab('datos')}>
+              <button
+                type="button"
+                className="app__action app__action--secondary"
+                onClick={() => setActiveTab('datos')}
+              >
                 Editar datos
               </button>
               <button type="button" className="app__action" onClick={handlePrintPdf}>

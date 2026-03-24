@@ -1,0 +1,201 @@
+{
+  "hero": {
+    "eyebrow": "Academic Resume",
+    "name": "Carlos Andres Daza Parra",
+    "headline": "Systems Engineer with a Master's degree in Integrated Management Systems and a specialization in Teaching and Pedagogy, with over 10 years of experience in higher education, technology training, and software engineering.",
+    "email": "cdazaparra@gmail.com",
+    "phone": "+57 302 612 62 62",
+    "location": "Chiquinquirá, Colombia",
+    "photo": "perfil.jpg",
+    "links": [],
+    "metrics": [
+      {
+        "label": "Profile",
+        "value": "Teaching + Technology"
+      },
+      {
+        "label": "Experience",
+        "value": "10+ years in education and technology"
+      }
+    ]
+  },
+  "summary": {
+    "title": "Professional Summary",
+    "subtitle": "Teaching, technology, and competency-based training in both in-person and virtual environments.",
+    "paragraphs": [
+      "Systems Engineer with a Master's degree in Integrated Management Systems and a specialization in Teaching and Pedagogy, with over 10 years of experience in higher education, technology training, and software engineering.",
+      "Specialist in programming education, cloud computing, and web application development, with experience in online learning environments and LMS platforms such as Moodle and Canvas.",
+      "Experienced as a university professor, bootcamp instructor, and software project leader, applying Agile methodologies (Scrum) and project-based learning approaches."
+    ]
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "subtitle": "Academic, technological, management, and data-driven career path.",
+    "items": [
+      {
+        "company": "BootCamp Institute",
+        "role": "Technical Instructor",
+        "duration": "February 2026 - Present",
+        "description": "Instructor in international technology training programs, delivering Cloud Computing courses and providing technical mentorship."
+      },
+      {
+        "company": "BootCamp Institute",
+        "role": "Technical Instructor",
+        "duration": "November 2025 - February 2026",
+        "description": "Instructor in IT Support programs and technical mentoring."
+      },
+      {
+        "company": "Jala University",
+        "role": "Adjunct Professor",
+        "duration": "February 2026 - March 2026",
+        "description": "Algorithms instructor responsible for assessments and hands-on activities."
+      },
+      {
+        "company": "Jala University",
+        "role": "Adjunct Professor",
+        "duration": "July 2025 - August 2025",
+        "description": "Algorithms instructor responsible for assessments and practical activities."
+      },
+      {
+        "company": "Tecnalia Colombia",
+        "role": "Cloud Computing Instructor",
+        "duration": "May 2025 - July 2025",
+        "description": "Cloud training and technical mentoring in international programs."
+      },
+      {
+        "company": "Jala University",
+        "role": "Adjunct Professor",
+        "duration": "February 2025 - March 2025",
+        "description": "Algorithms instructor focused on problem-solving exercises."
+      },
+      {
+        "company": "Tecnalia Colombia",
+        "role": "Cloud Computing Instructor",
+        "duration": "December 2024 - January 2025",
+        "description": "AWS and Azure training, cloud labs design, and project-based learning."
+      },
+      {
+        "company": "Tecnalia Colombia",
+        "role": "Cloud Computing Instructor",
+        "duration": "August 2024 - September 2024",
+        "description": "Cloud training and lab development."
+      },
+      {
+        "company": "Tecnalia Colombia",
+        "role": "Cloud Computing Instructor",
+        "duration": "May 2024 - August 2024",
+        "description": "Cloud computing training and mentoring."
+      },
+      {
+        "company": "Universitaria de Colombia",
+        "role": "University Lecturer",
+        "duration": "September 2023 - May 2024",
+        "description": "Lecturer in video game development, databases, and web design."
+      },
+      {
+        "company": "International Data Information And Consulting SAS",
+        "role": "Project Director",
+        "duration": "June 2020 - June 2024",
+        "description": "Project Manager, Frontend Lead, React Developer, UI/UX Designer, Scrum Master."
+      },
+      {
+        "company": "Department of Education of Boyacá",
+        "role": "Technology Instructor",
+        "duration": "July 2018 - March 2023",
+        "description": "Teaching programming, frontend development, and problem-solving."
+      },
+      {
+        "company": "Fundación Universitaria de San Gil Unisangil",
+        "role": "University Lecturer",
+        "duration": "August 2018 - December 2018",
+        "description": "Instructor in English, computer architecture, and software development."
+      },
+      {
+        "company": "Fundación Universitaria de San Gil Unisangil",
+        "role": "Research Professor",
+        "duration": "February 2015 - July 2018",
+        "description": "Teaching software engineering, databases, programming, and research leadership."
+      },
+      {
+        "company": "Audifin SAS",
+        "role": "Systems Auditor",
+        "duration": "February 2014 - June 2014",
+        "description": "Strategic systems development and quality auditing."
+      },
+      {
+        "company": "Institución Educativa Albert Einstein",
+        "role": "Technology Instructor",
+        "duration": "March 2013 - October 2013",
+        "description": "Teaching technology, math, and physics."
+      },
+      {
+        "company": "ESE Hospital Regional de Chiquinquirá",
+        "role": "Statistics Coordinator",
+        "duration": "September 2011 - October 2012",
+        "description": "Healthcare data analysis and indicator generation."
+      },
+      {
+        "company": "ESE Hospital Regional de Chiquinquirá",
+        "role": "Database Administrator",
+        "duration": "March 2011 - August 2011",
+        "description": "Database administration and reporting with SQL Server."
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "Academic background in systems, management, pedagogy, and visual media.",
+    "items": [
+      {
+        "institution": "Universidad Distrital Francisco José de Caldas",
+        "degree": "B.Sc. in Systems Engineering",
+        "year": "2012",
+        "thesis": "Enterprise analysis software for SMEs using PHP, CSS, and HTML."
+      },
+      {
+        "institution": "Universidad Internacional De La Rioja",
+        "degree": "M.Sc. in Integrated Management Systems",
+        "year": "2015",
+        "thesis": "Integrated quality and environmental management system."
+      },
+      {
+        "institution": "Fundación Universitaria Del Área Andina",
+        "degree": "Specialization in Teaching and Pedagogy",
+        "year": "2018",
+        "thesis": "Evaluation equivalence in reading and mathematics."
+      },
+      {
+        "institution": "Servicio Nacional de Aprendizaje (SENA)",
+        "degree": "Technologist in Visual Graphic Media Development",
+        "year": "2025",
+        "thesis": "Professional practice stage."
+      }
+    ]
+  },
+  "Competencias_Tecnicas": {
+    "title": "Technical Skills",
+    "subtitle": "Languages, frameworks, cloud platforms, databases, methodologies, and tools.",
+    "items": [
+      { "label": "Languages", "data": "JavaScript, PHP, SQL, Python" },
+      { "label": "Frontend", "data": "React, HTML5, CSS3" },
+      { "label": "Backend", "data": "Node.js, Python (Django)" },
+      { "label": "Cloud", "data": "AWS, Azure" },
+      { "label": "Databases", "data": "SQL Server, MySQL" },
+      { "label": "Methodologies", "data": "Scrum, Agile" },
+      { "label": "Tools", "data": "Git, GitHub, Jira, Trello, Slack, Canvas, Moodle" },
+      { "label": "Other", "data": "Systems auditing, data analytics" }
+    ]
+  },
+  "Fortalezas_Docente": {
+    "title": "Teaching Competencies",
+    "subtitle": "Pedagogical and methodological capabilities for teaching.",
+    "items": [
+      { "data": "Online course design." },
+      { "data": "Project-based learning." },
+      { "data": "Remote mentoring." },
+      { "data": "Practical lab development." },
+      { "data": "Competency-based assessment." },
+      { "data": "Use of LMS and collaborative tools." }
+    ]
+  }
+}

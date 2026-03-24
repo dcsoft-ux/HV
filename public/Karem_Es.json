@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "eyebrow": "Hoja de vida",
+    "name": "Karem Dayanna González López",
+    "headline": "Administradora de Empresas con formación en contabilidad, finanzas y control organizacional, con experiencia en gestión administrativa, comercial y apoyo a proyectos.",
+    "email": "lkaremdayanna@gmail.com",
+    "phone": "+57 3107772579",
+    "location": "Chiquinquirá, Colombia",
+    "photo": "perfil_karem.jpg",
+    "links": [],
+    "metrics": [
+      {
+        "label": "Perfil",
+        "value": "Administración + Finanzas"
+      },
+      {
+        "label": "Experiencia",
+        "value": "Más de 3 años en sector privado"
+      }
+    ]
+  },
+  "summary": {
+    "title": "Resumen Profesional",
+    "subtitle": "Gestión administrativa, contable y organizacional en entornos empresariales.",
+    "paragraphs": [
+      "Administradora de Empresas con formación técnica y tecnológica en contabilidad y finanzas, y especialización en control organizacional.",
+      "Experiencia en gestión administrativa, atención al cliente, procesos comerciales y apoyo en la ejecución de proyectos empresariales.",
+      "Capacidad para el manejo de información financiera, organización de procesos internos y apoyo en la toma de decisiones estratégicas."
+    ]
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "subtitle": "Trayectoria administrativa, comercial y de apoyo a proyectos.",
+    "items": [
+      {
+        "company": "International Data Information And Consulting",
+        "role": "Asesor de proyectos",
+        "duration": "Noviembre 2020 - Septiembre 2021",
+        "description": "Apoyo en gestión de proyectos, procesos administrativos y coordinación de actividades organizacionales."
+      },
+      {
+        "company": "Beraka Decoración y Eventos",
+        "role": "Auxiliar administrativo",
+        "duration": "Agosto 2017 - Diciembre 2018",
+        "description": "Apoyo en procesos administrativos, organización de eventos y gestión operativa."
+      },
+      {
+        "company": "Together",
+        "role": "Administradora de tienda",
+        "duration": "Septiembre 2016 - Julio 2017",
+        "description": "Gestión administrativa y comercial, atención al cliente y manejo de inventarios."
+      }
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "subtitle": "Formación académica en contabilidad, finanzas y administración.",
+    "items": [
+      {
+        "institution": "Colegio Nacional Universitario",
+        "degree": "Bachiller Académico",
+        "year": "2012",
+        "thesis": ""
+      },
+      {
+        "institution": "Servicio Nacional de Aprendizaje (SENA)",
+        "degree": "Técnico en Contabilidad",
+        "year": "2012",
+        "thesis": ""
+      },
+      {
+        "institution": "Servicio Nacional de Aprendizaje (SENA)",
+        "degree": "Tecnólogo en Contabilidad y Finanzas",
+        "year": "2015",
+        "thesis": ""
+      },
+      {
+        "institution": "Universidad Pedagogica y Tecnológica de Colombia (UPTC)",
+        "degree": "Administrador de Empresas",
+        "year": "2021",
+        "thesis": ""
+      },
+      {
+        "institution": "Universidad Pedagogica y Tecnológica de Colombia (UPTC)",
+        "degree": "Especialista en Control Organizacional",
+        "year": "2022",
+        "thesis": ""
+      }
+    ]
+  },
+  "Competencias_Tecnicas": {
+    "title": "Habilidades Técnicas",
+    "subtitle": "Gestión administrativa, financiera y herramientas de oficina.",
+    "items": [
+      {
+        "label": "Administración",
+        "data": "Gestión administrativa, organización de procesos, control documental"
+      },
+      {
+        "label": "Finanzas",
+        "data": "Contabilidad básica, análisis financiero, control organizacional"
+      },
+      {
+        "label": "Comercial",
+        "data": "Atención al cliente, ventas, manejo de inventarios"
+      },
+      {
+        "label": "Herramientas",
+        "data": "Ofimática, gestión de información, herramientas digitales"
+      }
+    ]
+  },
+  "Fortalezas_Docente": {
+    "title": "Competencias",
+    "subtitle": "Habilidades personales y organizacionales.",
+    "items": [
+      { "data": "Trabajo en equipo." },
+      { "data": "Organización y planificación." },
+      { "data": "Responsabilidad y compromiso." },
+      { "data": "Comunicación efectiva." },
+      { "data": "Adaptabilidad." }
+    ]
+  }
+}

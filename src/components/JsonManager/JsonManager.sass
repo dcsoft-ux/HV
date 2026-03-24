@@ -1,6 +1,6 @@
 .json-manager
   display: grid
-  gap: 14px
+  gap: 16px
 
   &__header
     h3
@@ -11,6 +11,43 @@
       margin: 6px 0 0
       color: var(--color-muted)
       word-break: break-word
+
+  &__section
+    display: grid
+    gap: 10px
+
+    h4
+      margin: 0
+      color: var(--color-text)
+      font-size: 0.98rem
+
+  &__existing-list
+    display: grid
+    gap: 10px
+
+  &__existing-item
+    width: 100%
+    text-align: left
+    border: 1px solid var(--color-border)
+    background: var(--color-surface)
+    color: var(--color-text)
+    padding: 12px 14px
+    border-radius: 12px
+    cursor: pointer
+    transition: .2s ease
+    font-weight: 600
+
+    &:hover
+      border-color: var(--color-primary)
+
+    &--active
+      background: var(--color-primary-soft)
+      color: var(--color-primary)
+      border-color: var(--color-primary)
+
+  &__empty
+    margin: 0
+    color: var(--color-muted)
 
   &__upload
     display: grid
