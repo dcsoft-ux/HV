@@ -1,0 +1,78 @@
+.data-editor
+  display: grid
+  gap: 14px
+
+  &__sections
+    display: grid
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+    gap: 8px
+
+  &__section
+    border: 1px solid var(--color-border)
+    background: var(--color-surface)
+    color: var(--color-text)
+    padding: 10px 12px
+    border-radius: 12px
+    cursor: pointer
+    font-weight: 700
+
+    &--active
+      background: var(--color-primary)
+      color: #ffffff
+      border-color: var(--color-primary)
+
+  &__list
+    display: grid
+    gap: 8px
+    max-height: 220px
+    overflow: auto
+    padding-right: 4px
+
+  &__list-item
+    text-align: left
+    border: 1px solid var(--color-border)
+    background: var(--color-surface)
+    color: var(--color-text)
+    padding: 10px 12px
+    border-radius: 12px
+    cursor: pointer
+
+    &--active
+      border-color: var(--color-primary)
+      box-shadow: inset 0 0 0 1px var(--color-primary)
+
+  &__actions
+    display: flex
+    flex-wrap: wrap
+    gap: 10px
+
+    button
+      border: 0
+      padding: 10px 14px
+      border-radius: 999px
+      background: var(--color-primary)
+      color: #ffffff
+      cursor: pointer
+      font-weight: 700
+
+    .danger
+      background: #e11d48
+
+  &__form
+    display: grid
+    gap: 12px
+
+    label
+      display: grid
+      gap: 6px
+      color: var(--color-text)
+      font-weight: 600
+
+    input,
+    textarea
+      border: 1px solid var(--color-border)
+      background: var(--color-surface)
+      color: var(--color-text)
+      border-radius: 12px
+      padding: 12px 14px
+      resize: vertical

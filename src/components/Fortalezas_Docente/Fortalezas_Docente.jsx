@@ -1,26 +1,35 @@
-import React from 'react';
-import './Fortalezas_Docente.sass';
+import React from 'react'
+import './Fortalezas_Docente.sass'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faWrench, faDumbbell } from '@fortawesome/free-solid-svg-icons'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faWrench, faDumbbell } from '@fortawesome/free-solid-svg-icons';
+const Fortalezas_Docente = ({ Fortalezas_Docente }) => {
+  const items = Fortalezas_Docente?.items || []
 
-const Fortalezas_Docente = ({ Fortalezas_Docente }) => (
-  <section className='Fortalezas_Docente'>
-    <h3 className='tittle'>
-      <div className='tittle-icon'><FontAwesomeIcon icon={faDumbbell} /></div>
-      <div className='tittle-tittle'>
-        {Fortalezas_Docente.title}
-      </div>
-    </h3>
-    {Fortalezas_Docente.items.map((job, index) => (
-      <div className='data' key={index}>
-        <div className='card'>
-          <div className='card-icon'><FontAwesomeIcon icon={faWrench} /></div>
-          <div className='card-text'>{job.data}</div>
+  return (
+    <section className="strengths">
+      <div className="strengths__title">
+        <div className="strengths__title-icon">
+          <FontAwesomeIcon icon={faWrench} />
+        </div>
+        <div className="strengths__title-text">
+          <h2>{Fortalezas_Docente?.title}</h2>
+          {Fortalezas_Docente?.subtitle ? <p>{Fortalezas_Docente.subtitle}</p> : null}
         </div>
       </div>
-    ))}
-  </section>
-);
 
-export default Fortalezas_Docente;
+      <div className="strengths__list">
+        {items.map((job, index) => (
+          <article className="strengths__item" key={`${job.data}-${index}`}>
+            <span className="strengths__item-icon">
+              <FontAwesomeIcon icon={faDumbbell} />
+            </span>
+            <span className="strengths__item-text">{job.data}</span>
+          </article>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+export default Fortalezas_Docente

@@ -1,43 +1,62 @@
-.Fortalezas_Docente
-    padding: 20px;
-    border-radius: 8px;
-    border: 2px solid blue;
-    margin: 20px;
-    .tittle
-        display: grid
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: 1fr 3fr;
-        font-size: 2rem;
-        .tittle-icon
-            display: grid;
-            justify-content: end;
-            margin-right: 10px;
-            color: blue;
-        .tittle-tittle
-            display: grid;
-            justify-content: start;
-            margin-left: 10px;
-    .data
-        margin: 15px;
-        display: grid;
-        grid-template-columns: 1fr;
-        .card
-            margin: 5px;
-            display: grid
-            grid-template-columns: 50px 4fr;
-            .card-icon
-                display: grid;
-                justify-content: center;
-                align-items: center;
-            .card-text
-                display: grid;
-                align-items: center;
-                justify-content: start;
-                margin-left: 10px;
-            .card-tittle
-                display: grid;
-                align-items: center;
-                justify-content: start;
-                margin-left: 10px;
-                color: blue;
+.strengths
+  background: var(--color-surface)
+  border: 1px solid var(--color-border)
+  border-radius: 24px
+  box-shadow: 0 10px 24px var(--color-shadow)
+  padding: 24px
+
+  &__title
+    display: grid
+    grid-template-columns: 56px 1fr
+    gap: 14px
+    align-items: center
+    margin-bottom: 20px
+
+  &__title-icon
+    width: 56px
+    height: 56px
+    border-radius: 16px
+    display: grid
+    place-items: center
+    background: var(--color-primary-soft)
+    color: var(--color-primary)
+    font-size: 1.4rem
+
+  &__title-text
+    h2
+      margin: 0
+      font-size: 1.25rem
+      color: var(--color-text)
+
+    p
+      margin: 4px 0 0
+      color: var(--color-muted)
+      font-size: 0.95rem
+
+  &__list
+    display: grid
+    gap: 12px
+
+  &__item
+    display: grid
+    grid-template-columns: 40px 1fr
+    gap: 12px
+    align-items: center
+    border: 1px solid var(--color-border)
+    border-radius: 18px
+    padding: 14px 16px
+    background: var(--color-surface-alt)
+
+  &__item-icon
+    width: 40px
+    height: 40px
+    border-radius: 12px
+    display: grid
+    place-items: center
+    background: var(--color-primary-soft)
+    color: var(--color-primary)
+
+  &__item-text
+    color: var(--color-text)
+    line-height: 1.6
+    font-weight: 500

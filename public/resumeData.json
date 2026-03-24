@@ -1,206 +1,140 @@
 {
-  "name": "Carlos Andres Daza Parra",
-  "contact": {
-    "email": "cdazaparra@gmail.cresumeDataom",
-    "phone": "+57 302 612 62 62",
-    "location": "Chiquinquirá, Colombia",
-    "summary1":"Ingeniero de Sistemas con Maestría en Sistemas Integrados de Gestión y Especialización en Docencia y Pedagogía, con más de 10 años de experiencia en educación superior, formación tecnológica y desarrollo de software.",
-    "summary2":"Especialista en enseñanza de programación, computación en la nube y desarrollo web, con experiencia en educación virtual y formación en plataformas LMS como Moodle, Canvas y entornos colaborativos digitales.",
-    "summary3":"He trabajado como docente universitario, instructor de bootcamps tecnológicos y líder de proyectos de desarrollo, integrando metodologías ágiles (Scrum) y aprendizaje basado en proyectos para fortalecer competencias técnicas en estudiantes de ingeniería y tecnología.",
-    "title": "Resumen Profesional"
+  "hero": {
+    "eyebrow": "Hoja de vida docente",
+    "name": "Carlos Andrés Daza Parra",
+    "headline": "Docente en tecnología e informática, con experiencia en formación académica, desarrollo web con React, acompañamiento a estudiantes y construcción de proyectos educativos apoyados en herramientas digitales.",
+    "email": "tcdazaparra@gmail.com",
+    "phone": "+57 3000000000",
+    "location": "Colombia",
+    "website": "https://github.com/dcsoft-ux/HV",
+    "photo": "perfil.jpg",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "display": "linkedin.com/in/dcsoft",
+        "url": "https://www.linkedin.com/in/dcsoft/"
+      },
+      {
+        "label": "GitHub",
+        "display": "github.com/dcsoft-ux",
+        "url": "https://github.com/dcsoft-ux"
+      },
+      {
+        "label": "CvLac",
+        "display": "Perfil investigador",
+        "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001614128"
+      }
+    ],
+    "metrics": [
+      {
+        "label": "Perfil",
+        "value": "Docencia + tecnología"
+      },
+      {
+        "label": "Enfoque",
+        "value": "Programación, TIC y formación práctica"
+      }
+    ]
+  },
+  "summary": {
+    "title": "Perfil profesional",
+    "subtitle": "Docencia, tecnología y desarrollo de experiencias de aprendizaje con herramientas digitales.",
+    "paragraphs": [
+      "Profesional con perfil docente y técnico, orientado a la formación de estudiantes en tecnología, programación, desarrollo web y uso pedagógico de herramientas digitales.",
+      "Cuento con experiencia en construcción de proyectos y recursos en React, como el repositorio de hoja de vida disponible en https://github.com/dcsoft-ux/HV, integrando componentes reutilizables, manejo de JSON y personalización visual.",
+      "Mi enfoque combina pensamiento lógico, comunicación clara, acompañamiento académico y aplicación práctica, buscando que los estudiantes comprendan conceptos técnicos y los lleven a soluciones reales.",
+      "Trabajo con metodologías activas, aprendizaje basado en proyectos y uso estratégico de TIC para fortalecer competencias digitales, autonomía y resolución de problemas."
+    ]
   },
   "experience": {
-    "title": "Experiencia Profesional",
+    "title": "Experiencia profesional",
+    "subtitle": "Trayectoria docente y tecnológica.",
     "items": [
-    {
-      "company": "BootCamp Institute",
-      "role": "Docente",
-      "duration": "Febrero de 2026 - Actualmente",
-      "description": "Instructor en programas internacionales de formación tecnológica, Formación en Cloud Computing y Mentoría técnica a estudiantes."
-    },
-    {
-      "company": "BootCamp Institute",
-      "role": "Docente",
-      "duration": "Noviembre de 2025 - Febrero de 2026",
-      "description": "Instructor en programas internacionales de formación tecnológica, Formación en Soporte IT y Mentoría técnica a estudiantes."
-    },
-    {
-      "company": "Jala University",
-      "role": "Docente",
-      "duration": "Febrero de 2026 - Marzo de 2026",
-      "description": "Docente de Algoritmos, Desarrollo de evaluaciones y actividades prácticas."
-    },
-    {
-      "company": "Jala University",
-      "role": "Docente",
-      "duration": "Julio de 2025 - Agosto de 2025",
-      "description": "Docente de Algoritmos, Desarrollo de evaluaciones y actividades prácticas."
-    },
-    {
-      "company": "Tecnalia Colombia",
-      "role": "Docente",
-      "duration": "Mayo de 2025 - Julio de 2025",
-      "description": "Instructor en programas internacionales de formación tecnológica, Formación en Cloud Computing y Mentoría técnica a estudiantes."
-    },
-    {
-      "company": "Jala University",
-      "role": "Docente",
-      "duration": "Febrero de 2025 - Marzo de 2025",
-      "description": "Docente de Algoritmos, Desarrollo de evaluaciones y actividades prácticas."
-    },
-    {
-      "company": "Tecnalia Colombia",
-      "role": "Docente",
-      "duration": "Diciembre de 2024 - Enero de 2025",
-      "description": "Formación en AWS y Azure, Diseño de laboratorios prácticos en la nube y Enseñanza basada en proyectos."
-    },
-    {
-      "company": "Tecnalia Colombia",
-      "role": "Docente",
-      "duration": "Agosto de 2024 - Septiembre de 2024",
-      "description": "Formación en AWS y Azure, Diseño de laboratorios prácticos en la nube y Enseñanza basada en proyectos."
-    },
-    {
-      "company": "Tecnalia Colombia",
-      "role": "Docente",
-      "duration": "Mayo de 2024 - Agosto de 2024",
-      "description": "Instructor en programas internacionales de formación tecnológica, Formación en Cloud Computing y Mentoría técnica a estudiantes."
-    },
-    {
-      "company": "Universitaria de Colombia",
-      "role": "Docente",
-      "duration": "Septiembre de 2023 - Mayo de 2024",
-      "description": "Docente de desarrollo de video juegos, Bases de datos, Diseño web, entre otros."
-    },
-    {
-      "company": "International Data Information And Consulting SAS",
-      "role": "Director de proyectos",
-      "duration": "Junio de 2020 - Junio de 2024",
-      "description": "Project Manager, Frontend Leader, React Developer, Desing Developer, Scrum Master."
-    },
-    {
-      "company": "Secretaría de Educación de Boyacá",
-      "role": "Docente",
-      "duration": "Julio de 2018 - Marzo de 2023",
-      "description": "Resolución de problemas, Desarrollo front end, Habilidades sociales, Desarrollo de software, Trabajo en equipo, JavaScript."
-    },
-    {
-      "company": "Fundación Universitaria de San Gil Unisangil",
-      "role": "Docente",
-      "duration": "Agosto de 2018 - Diciembre de 2018",
-      "description": "Docente de Inglés, Arquitectura de computadores, Desarrollo de Software, entre otros."
-    },
-    {
-      "company": "Fundación Universitaria de San Gil Unisangil",
-      "role": "Docente investigador",
-      "duration": "Febrero de 2015 - Julio de 2018",
-      "description": "Docente de Administración de servidores, Administrador de bases de datos, Análisis de algoritmos, Paradigmas de programación, Bases de datos, Desarrollo Web, Ingeniería de software, Formulación de proyectos, Estadística, Ingles, Director de grupo de investigación, Arquitectura de software, entre otros."
-    },
-    {
-      "company": "Audifin SAS",
-      "role": "Auditor",
-      "duration": "Febrero de 2014 - Junio de 2014",
-      "description": "Desarrollador del sistema de planeación estratégica, generador y auditor de indicadores de calidad, Análisis de estudios económicos, Mantenimiento del sistema de Calidad."
-    },
-    {
-      "company": "Institución Educativa Albert Einstein",
-      "role": "Docente",
-      "duration": "Marzo de 2013 - Octubre de 2013",
-      "description": "Docente de tecnología, matemáticas y física."
-    },
-    {
-      "company": "ESE Hospital Regional de Chiquinquirá",
-      "role": "Coordinador de estadística",
-      "duration": "Septiembre de 2011 - Octubre de 2012",
-      "description": "Análisis de datos del hospital por medio de consultas al servidos, generador de indicadores y análisis de riesgos."
-    },
-    {
-      "company": "ESE Hospital Regional de Chiquinquirá",
-      "role": "Administrador de Bases de Datos",
-      "duration": "Marzo de 2011 - Agosto de 2011",
-      "description": "Administador de bases de datos, analista de datos, generador de informes con SqlServer."
-    }
-  ]
-},
+      {
+        "company": "Institución Educativa",
+        "role": "Docente de Tecnología e Informática",
+        "duration": "2021 - Actualidad",
+        "description": "Orientación de procesos formativos en tecnología, informática y herramientas digitales, promoviendo aprendizaje práctico y competencias del siglo XXI.",
+        "achievements": [
+          "Diseño de actividades enfocadas en programación y pensamiento computacional.",
+          "Acompañamiento académico a estudiantes en proyectos y procesos evaluativos.",
+          "Integración de herramientas digitales en el aula."
+        ],
+        "tags": ["Docencia", "Tecnología", "Informática", "TIC"]
+      },
+      {
+        "company": "Proyectos independientes",
+        "role": "Desarrollador Frontend",
+        "duration": "2020 - Actualidad",
+        "description": "Desarrollo de interfaces y proyectos web con enfoque en experiencia de usuario, componentes reutilizables y manejo estructurado de datos.",
+        "achievements": [
+          "Construcción de proyectos en React.",
+          "Uso de JSON dinámico para renderizado de información.",
+          "Implementación de estilos modulares y personalización visual."
+        ],
+        "tags": ["React", "JavaScript", "Frontend", "UI"]
+      }
+    ]
+  },
   "education": {
     "title": "Educación",
+    "subtitle": "Formación académica relevante.",
     "items": [
-    {
-      "institution": "Universidad Distrital Francisco José de Caldas",
-      "degree": "Ingeniero de Sistemas",
-      "year": "2012",
-      "thesis": "Software de análisis empresarial hecho en PHP, CSS y HTML para medianas y pequeñas empresas que permite un análisis de los inventarios."
-    },
-    {
-      "institution": "Universidad Internacional De La Rioja",
-      "degree": "Magister en Sistemas Integrados de Gestión",
-      "year": "2015",
-      "thesis": "Sistema Integrado de Gestión de Calidad y Medio Ambiente en la especialidad de Ergonomía y Psicosociología Aplicada."
-    },
-    {
-      "institution": "Fundación Universitaria Del Área Andina",
-      "degree": "Especialista en docencia y pedagogía",
-      "year": "2018",
-      "thesis": "Equivalencia de resultados en pruebas internas y externas en la lectura comunicativa y razonamiento matemático en la Institución Nuestra Señora del Carmen."
-    },
-    {
-      "institution": "Servicio Nacional de Aprendizaje (SENA)",
-      "degree": "Tecnólogo en Desarrollo de Medios Gráficos Visuales",
-      "year": "2025",
-      "thesis": "Etapa productiva: Vinculación Laboral o contractual."
-    }
-  ]
-},
-  "Competencias_Tecnicas":{
-    "title": "Habilidades Técnicas",
-    "items": [
-  {
-    "data": "Lenguajes : JavaScript, PHP, SQL, Python"
+      {
+        "institution": "Universidad",
+        "degree": "Licenciatura / Ingeniería / Formación profesional",
+        "year": "Año",
+        "thesis": "Agrega aquí tu título real y el énfasis correspondiente."
+      },
+      {
+        "institution": "Institución complementaria",
+        "degree": "Diplomado / Especialización / Curso",
+        "year": "Año",
+        "thesis": "Agrega aquí formación complementaria relacionada con docencia o tecnología."
+      }
+    ]
   },
-{
-    "data": "Frontend: React, HTML5, CSS3"
-},
-{
-    "data": "Backend: Node.js, Python(Django)"
-},
-{
-  "data": "Cloud : AWS, Azure"
-},
-{
-  "data": "Bases de datos : SQL Server, MySQL"
-},
-{
-  "data": "Metodologías : Scrum"
-},
-{
-  "data": "Herramientas : Git, GitHub, Jira, Trello, Slack, Canvas, Moodle"
-},
-{
-  "data":  "Otros : Auditoría de sistemas, análisis de datos"
-}
-  ]
-},
-  "Fortalezas_Docente":{
-    "title": "Competencias Docente",
+  "Competencias_Tecnicas": {
+    "title": "Competencias técnicas",
+    "subtitle": "Herramientas y tecnologías.",
     "items": [
-  {
-    "data": "Diseño de cursos en línea."
+      {
+        "label": "Frontend",
+        "data": "HTML, CSS, JavaScript, React"
+      },
+      {
+        "label": "Gestión de datos",
+        "data": "JSON, estructuras dinámicas y organización de contenido"
+      },
+      {
+        "label": "Herramientas educativas",
+        "data": "Recursos TIC, plataformas virtuales y apoyo digital al aprendizaje"
+      },
+      {
+        "label": "Control de versiones",
+        "data": "Git y GitHub"
+      }
+    ]
   },
-{
-    "data": "Aprendizaje basado en proyectos."
-},
-{
-    "data": "Tutoría remota y acompañamiento académico."
-},
-{
-  "data": "Desarrollo de laboratorios prácticos."
-},
-{
-  "data": "Evaluación por competencias."
-},
-{
-  "data": "Uso de LMS y herramientas colaborativas."
-}
-  ]
-}
+  "Fortalezas_Docente": {
+    "title": "Fortalezas docentes",
+    "subtitle": "Competencias pedagógicas clave.",
+    "items": [
+      {
+        "data": "Planeación de actividades con enfoque práctico."
+      },
+      {
+        "data": "Comunicación clara de conceptos técnicos."
+      },
+      {
+        "data": "Acompañamiento académico y seguimiento al estudiante."
+      },
+      {
+        "data": "Integración de tecnología en procesos de enseñanza."
+      },
+      {
+        "data": "Diseño de experiencias de aprendizaje apoyadas en proyectos."
+      }
+    ]
+  }
 }

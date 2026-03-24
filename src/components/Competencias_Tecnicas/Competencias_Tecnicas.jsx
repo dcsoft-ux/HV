@@ -1,31 +1,38 @@
-import React from 'react';
-import './Competencias_Tecnicas.sass';
+import React from 'react'
+import './Competencias_Tecnicas.sass'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGears, faKey } from '@fortawesome/free-solid-svg-icons'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGears, faKey } from '@fortawesome/free-solid-svg-icons';
+const Competencias_Tecnicas = ({ Competencias_Tecnicas }) => {
+  const items = Competencias_Tecnicas?.items || []
 
-const Competencias_Tecnicas = ({ Competencias_Tecnicas }) => (
-  <section className='Competencias_Tecnicas'>
-    <h3 className='tittle'>
-      <div className='tittle-icon'>
-        <FontAwesomeIcon icon={faKey} />
-      </div>
-      <div className='tittle-tittle'>
-        {Competencias_Tecnicas.title}
-      </div>
-    </h3>
-
-    {Competencias_Tecnicas.items.map((job, index) => (
-      <div className='data' key={index}>
-        <div className='card'>
-          <div className='card-icon'>
-            <FontAwesomeIcon icon={faGears} />
-          </div>
-          <div className='card-text'>{job.data}</div>
+  return (
+    <section className="skills">
+      <div className="skills__title">
+        <div className="skills__title-icon">
+          <FontAwesomeIcon icon={faGears} />
+        </div>
+        <div className="skills__title-text">
+          <h2>{Competencias_Tecnicas?.title}</h2>
+          {Competencias_Tecnicas?.subtitle ? <p>{Competencias_Tecnicas.subtitle}</p> : null}
         </div>
       </div>
-    ))}
-  </section>
-);
 
-export default Competencias_Tecnicas;
+      <div className="skills__list">
+        {items.map((job, index) => (
+          <article className="skills__card" key={`${job.label}-${index}`}>
+            <div className="skills__card-icon">
+              <FontAwesomeIcon icon={faKey} />
+            </div>
+            <div className="skills__card-content">
+              <h3>{job.label}</h3>
+              <p>{job.data}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+export default Competencias_Tecnicas
